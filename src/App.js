@@ -4,9 +4,12 @@ import Chat from './components/Chat';
 
 function App() {
   return (
-    <div className="App">
-    <SideBar />
-    <Chat />
+    <div className="app">
+      <div className="app_body">
+      <SideBar />
+      <Chat />
+      </div>
+   
     </div>
   );
 }
