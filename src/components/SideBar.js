@@ -9,6 +9,7 @@ function SideBar() {
   return (
     <div className="sidebar">
         <div className="sidebar_header">
+          <Avatar />
           <div className="sidebar_headerRight">
             <IconButton>
               <DonutLargeIcon />
