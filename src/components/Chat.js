@@ -3,7 +3,7 @@ import '../styling/chat.css';
 
 function Chat() {
   return (
-    <div>
+    <div className="chat">
         <h1>Chat</h1>
     </div>
   )
