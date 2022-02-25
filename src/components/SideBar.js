@@ -4,6 +4,7 @@ import ChatIcon from '@mui/icons-material/Chat';
 import { Avatar,IconButton } from '@mui/material';
 import DonutLargeIcon from '@mui/icons-material/DonutLarge';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
+import { Input } from '@mui/material';
 
 function SideBar() {
   return (
@@ -21,6 +22,9 @@ function SideBar() {
               <MoreVertIcon />
             </IconButton>
           </div>
+        </div>
+        <div className="sidebar_searchContainer">
+          <Input />
         </div>
     </div>
   )
