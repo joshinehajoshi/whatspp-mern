@@ -37,3 +37,8 @@ padding: 10px;
     color: gray;
     padding: 10px;
 }
+
+.sidebar_searchContainer > input {
+    border: none;
+    margin-left: 10px;
+}
